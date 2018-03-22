@@ -1,0 +1,26 @@
+@media (min-width: 994px) {
+  .profile-photo {
+    margin-top: 60px;
+  }
+  .card-content{
+    margin-top: 100px;
+  }
+  .fmediana{
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 782px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 5.5rem;
+  }
+  .card {
+    width: 95%;
+    height:100%;
+  }
+}
+
+@media (min-width: 430px) {
+
+}

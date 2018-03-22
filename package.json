@@ -1,0 +1,26 @@
+{
+    "name": "jorzarioscv",
+    "version": "1.0.0",
+    "description": "",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "jorzarios",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "4.0.0",
+        "jquery": "3.3.1",
+        "jquery.easing": "^1.4.1",
+        "jquery.stellar": "^0.6.2"
+    },
+    "devDependencies": {
+        "browser-sync": "2.23.6",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.2",
+        "gulp-header": "2.0.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-uglify": "3.0.0"
+    }
+}

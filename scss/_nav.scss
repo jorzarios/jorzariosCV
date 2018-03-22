@@ -1,0 +1,42 @@
+#sideNav {
+  border-width: 0;
+  background: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+
+  .navbar-nav .nav-item .nav-link {
+    font-weight: 200;
+    text-transform: uppercase;
+    color: $black;
+  }
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+    }
+    .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+      .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        .nav-item {
+          display: block;
+
+          .nav-link {
+            display: block;
+
+          }
+        }
+      }
+    }
+  }
+}
