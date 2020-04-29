@@ -10,7 +10,7 @@
     "license": "MIT",
     "dependencies": {
         "bootstrap": "4.0.0",
-        "jquery": "3.3.1",
+        "jquery": "3.5.0",
         "jquery.easing": "^1.4.1",
         "jquery.stellar": "^0.6.2"
     },
